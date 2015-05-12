@@ -12,7 +12,6 @@ install:
 
 before_build:
   - cmd: bii init -L
-  - cmd: bii configure -G "Visual Studio 12"
   - cmd: bii user %block_user% -p %secured_passwd%
 
 build_script:
