@@ -19,6 +19,7 @@ build_script:
 
 test_script:
   - cmd: cd bin
+  - cmd: dir
   - cmd: Dani_MTB_using_appveyor_main.exe
 
 deploy_script:
