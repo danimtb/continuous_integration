@@ -21,7 +21,7 @@ build_script:
 test_script:
   - cmd: cd bin
   - cmd: dir
-  - cmd: Dani_MTB_using_appveyor_main.exe
+  - cmd: Dani_MTB_continuous-integration_main.exe
 
 deploy_script:
   - cmd: bii user %block_user% -p %secured_passwd%
