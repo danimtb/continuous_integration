@@ -55,7 +55,7 @@ environment:
   secured_passwd:
     secure: Xs9AudM/J5BVLFyYfvrTOw==
   access_token:
-    secure: 9232c612cd67249d8b3c321d22bfb19f55070090
+    secure: g6d47EtmEgEwlRp03bgzT24fAzt3wYuAP8cz7wnx1zqwJcZrU317la2wZ0a6rtsU
   github_user:
     "danimtb"
   github_email:
