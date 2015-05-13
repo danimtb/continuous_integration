@@ -22,6 +22,7 @@ test_script:
   - cmd: cd bin
   - cmd: dir
   - cmd: Dani_MTB_continuous_integration_main.exe
+  - cmd: cd ..
 
 deploy_script:
   - cmd: bii user %block_user% -p %secured_passwd%
