@@ -28,9 +28,9 @@ script:
   - if [ "$CXX" == "clang++" ]; then export CXX="clang++" && bii build; fi
   - if [ "$CXX" == "g++" ];     then export CXX="g++"     && bii build; fi
   - cd /$TRAVIS_BUILD_DIR
-##################### CHANGE WITH YOUR CUSTOM CHECKS OR TEST EXECUTION ##################
+##################### CHANGE WITH YOUR CUSTOM CHECKS OR TEST EXECUTION ###################
   - ./bin/Dani_MTB_continuous_integration_main
-#########################################################################################
+##########################################################################################
 after_success:
   - bii user $USER -p $BII_PASSWORD
   - if [[ -n $TRAVIS_TAG ]]; then bii publish -r --tag STABLE --versiontag $TRAVIS_TAG || echo "Ignored publish output..."; fi
